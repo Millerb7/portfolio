@@ -3,7 +3,7 @@ import React from 'react';
 export default function Work() {
   return (
     <div>
-      <h1>My Works</h1>
+      <h1 class="title text-center p-5">My Work</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi

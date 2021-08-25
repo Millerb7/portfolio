@@ -2,21 +2,26 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <div>
-      <h1>Contact Me</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+    <div class="text-center">
+      <h1 class="title p-5">Contact Me</h1>
+      <div class="d-flex flex-direction-row">
+        <a href="mailto:millerjboyd@gmail.com" class="card col-lg-3 text-decoration-none py-5 px-1">
+          <h2>Email</h2>
+          <p>millerjboyd@gmail.com</p>
+        </a>
+        <a href="https://github.com/Millerb7" class="card col-lg-3 text-decoration-none py-5 px-1">
+          <h2>GitHub</h2>
+          <p>Millerb7</p>
+        </a>
+        <a href="https://www.linkedin.com/in/miller-compsci/" class="card col-lg-3 text-decoration-none py-5 px-1">
+          <h2>LinkedIn</h2>
+          <p>Miller Boyd</p>
+        </a>
+        <a href="https://twitter.com/WindmillBoyd" class="card col-lg-3 text-decoration-none py-5 px-1">
+          <h2>Twitter</h2>
+          <p>WindmillBoyd</p>
+        </a>
+      </div>
     </div>
   );
 }
